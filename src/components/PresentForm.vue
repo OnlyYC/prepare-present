@@ -2,7 +2,7 @@
 <div>
   <hsy-dialog class="confirm" v-model="visible1">
       <div slot="title">提示</div>
-      <div slot="body" style="width: 500px;">
+      <div slot="body">
 
         <div class="modal-body">
           <div>是否确认提交</div>

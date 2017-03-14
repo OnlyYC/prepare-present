@@ -60,8 +60,8 @@ router.post('/present', function(req, res, next){
     //向申请方回复邮件
     mail.sendMail(
       to=email,
-      subject="礼物申请回复",
-      message='你的期待我已收到'
+      subject="present",
+      message='你的期待已传达'
     )
 
     res.status(200).send("success").end();
